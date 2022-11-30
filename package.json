@@ -1,0 +1,36 @@
+{
+  "name": "",
+  "version": "0.0.1",
+  "description": "",
+  "bin": "./start.sh",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "homepage": "",
+  "scripts": {
+    "test": ":",
+    "lint": "eslint .",
+    "build": "tsc",
+    "prepare": "npm run --silent build",
+    "prestart": "npm run build",
+    "start": "cd dist; node index.js"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "author": "arelive <me@are.moe> (https://are.moe)",
+  "license": "MIT",
+  "repository": "",
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/arelive"
+  },
+  "keywords": [
+
+  ],
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  }
+}
