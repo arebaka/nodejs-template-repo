@@ -2,14 +2,13 @@
   "name": "",
   "version": "0.0.1",
   "description": "",
-  "bin": "./start.sh",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "homepage": "",
   "scripts": {
     "test": ":",
-    "lint": "eslint .",
-    "build": "tsc",
+    "lint": "npx eslint .",
+    "build": "npx tsc",
     "prepare": "npm run --silent build",
     "prestart": "npm run build",
     "start": "cd dist; node index.js"
@@ -24,13 +23,10 @@
     "type": "patreon",
     "url": "https://www.patreon.com/arelive"
   },
-  "keywords": [
-
-  ],
-  "dependencies": {
-
-  },
+  "keywords": [],
   "devDependencies": {
-
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "eslint": "^8.29.0",
+    "typescript": "^4.9.3"
   }
 }
